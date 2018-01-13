@@ -1,4 +1,6 @@
 .idea
+
+# user-defined variables
 terraform.tfvars
 
 #  Local .terraform directories
@@ -11,5 +13,3 @@ terraform.tfvars
 # .tfvars files
 *.tfvars
 
-# no idea temp files
-**/.idea/*

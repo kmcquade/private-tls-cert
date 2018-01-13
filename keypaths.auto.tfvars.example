@@ -1,0 +1,18 @@
+# Example values
+
+# This is the default key paths used for private tls cert
+ca_public_key_file_path = "/opt/vault/ca.key.pem"
+public_key_file_path = "/opt/vault/vault.crt.pem"
+private_key_file_path = "/opt/vault/vault.key.pem"
+
+/*
+Other items to put in terraform.tfvars or another .auto.tfvars file:
+
+ca_common_name = ""
+owner = ""
+organization_name = ""
+common_name = ""
+dns_names = ""
+ip_addresses = ""
+validity_period_hours = ""
+*/
